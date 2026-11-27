@@ -1,0 +1,15 @@
+{
+  "battery": {
+    "energy_capacity_mwh": 100,
+    "max_charge_mw": 25,
+    "max_discharge_mw": 25,
+    "charge_efficiency": 0.95,
+    "discharge_efficiency": 0.95,
+    "min_soc_fraction": 0.1,
+    "max_soc_fraction": 0.9
+  },
+  "dispatch": {
+    "initial_soc_fraction": 0.5,
+    "terminal_soc_policy": "equal_initial"
+  }
+}
